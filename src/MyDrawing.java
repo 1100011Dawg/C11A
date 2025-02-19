@@ -1,4 +1,4 @@
-import java.awt.Graphics;
+import java.awt.*;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -24,6 +24,7 @@ public class MyDrawing extends JPanel {
 		JFrame frame = new JFrame();
 		// Create a JPanel (MyDrawing), we'll draw on this
 		frame.setContentPane(new MyDrawing());
+		frame.setBackground(Color.cyan);
 		// Program will end when the window is closed
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Set the size (otherwise only title bar displays)
