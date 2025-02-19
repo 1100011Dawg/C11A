@@ -35,6 +35,9 @@ public class Cat {
 		// Draw ears
 		g2.fillOval(x, y, EAR_DIMENSION, EAR_DIMENSION);
 		g2.fillOval(x + EAR_SEPARATION, y, EAR_DIMENSION, EAR_DIMENSION);
+		g2.setColor(Color.pink);
+		g2.fillOval(x+EAR_DIMENSION/4, y+EAR_DIMENSION/4, EAR_DIMENSION/2, EAR_DIMENSION/2);
+		g2.fillOval(x + EAR_SEPARATION+EAR_DIMENSION/4, y+EAR_DIMENSION/4, EAR_DIMENSION/2, EAR_DIMENSION/2);
 		// Draw the eyes
 		g2.setColor(Color.green);
 		x = catX + EYE_X; 
